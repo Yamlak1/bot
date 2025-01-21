@@ -22,6 +22,7 @@ const registerUser = async (chatId, username) => {
 
 const checkUser = async (chatId) => {
   try {
+    console.log(chatId + "++++++++++++++++++");
     const response = await axios.post(`${BACKEND_URL}/check`, { chatId });
     return response.data.exists || !!response.data.id;
   } catch (error) {
