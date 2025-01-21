@@ -1,7 +1,7 @@
 const axios = require("axios");
 
-// const BACKEND_URL = "https://bounce-backend-ubdt.onrender.com";
-const BACKEND_URL = "http://localhost:8080/api/users";
+const BACKEND_URL = "https://bounce-backend-ubdt.onrender.com";
+// const BACKEND_URL = "http://localhost:8080/api/users";
 
 // Function to register a user
 const registerUser = async (chatId, username) => {
